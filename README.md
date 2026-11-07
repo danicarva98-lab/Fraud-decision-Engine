@@ -6,7 +6,7 @@ A production-grade, rule-based Fraud Decision Engine and analytical dashboard bu
 
 ## 🖼️ Visual Overview & Executive Dashboard
 
-![Executive Dashboard Preview](Fraud Detection Dashboard.png)
+![Executive Dashboard Preview](Fraud_Detection_Dashboard.png)
 
 ---
 
