@@ -52,7 +52,7 @@ Nested logical functions (`IF`, `AND`, `OR`) convert cumulative risk parameters 
 
 ## Forensic Audit Module: Benford's Law Analysis
 
-![Benford Analysis Chart](benford.png)
+![Benford Analysis Chart](Benford.png)
 
 <details>
 <summary><b>📖 Click to expand: Methodology & Anomaly Detection Findings</b></summary>
