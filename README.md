@@ -4,27 +4,27 @@ A production-grade, rule-based Fraud Decision Engine and analytical dashboard bu
 
 
 
-## 🖼️ Visual Overview & Executive Dashboard
+##  Visual Overview & Executive Dashboard
 
 ![Executive Dashboard Preview](Fraud_Detection_Dashboard.png)
 
 ---
 
-## 💡 Problem Statement & Analytical Approach
+##  Problem Statement & Analytical Approach
 
 ### The Business Challenge
-In high-volume e-commerce environments (such as HP's hardware and direct-to-consumer sales), risk operations face a dual challenge:
+In high-volume e-commerce environments, risk operations face a dual challenge:
 1. **Preventing Fraud Losses:** Blocking stolen credit cards, fake accounts, and unauthorized transactions.
 2. **Minimizing Friction & False Positives:** Ensuring legitimate buyers are not delayed by unnecessary manual reviews or incorrect declines.
 
-### My Methodological Solution
-Instead of relying solely on static transaction limits or opaque "black-box" decisions, I engineered a **two-tier evaluation system**:
-* **Real-Time Heuristic Engine:** Scores each incoming order based on multi-variable risk vectors (location mismatch, transaction thresholds, device fingerprinting) and assigns an automated operational output (`Approve`, `Manual Review`, `Decline`).
-* **Post-Processing Forensic Audit:** Applies logarithmic probability analysis (**Benford's Law**) across the dataset to detect systematic manipulation, bad-actor pattern shifts, or order structuring (smurfing).
+###  Methodological Solution
+The engine implements a two-tier evaluation framework:
+1. **Transaction-Level Heuristic Engine:** Evaluates each incoming order upon arrival against multi-variable risk vectors—including geographic location mismatches, transaction value thresholds, and device type profiling—to assign automated operational outcomes (`Approve`, `Manual Review`, or `Decline`).
+2. **Post-Processing Forensic Audit:** Applies logarithmic probability analysis (**Benford's Law**) across the aggregate dataset to evaluate structural integrity and detect systematic anomaly patterns or order structuring (smurfing).
 
 ---
 
-## 📐 Rule Architecture & Decision Logic
+## Rule Architecture & Decision Logic
 
 <details>
 <summary><b>🔍 Click to expand: Detailed Risk Scoring & Rule Building in Excel</b></summary>
@@ -50,7 +50,7 @@ Nested logical functions (`IF`, `AND`, `OR`) convert cumulative risk parameters 
 
 ---
 
-## 📊 Forensic Audit Module: Benford's Law Analysis
+## Forensic Audit Module: Benford's Law Analysis
 
 ![Benford Analysis Chart](benford_chart.png)
 
