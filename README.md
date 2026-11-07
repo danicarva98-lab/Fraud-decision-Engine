@@ -2,15 +2,11 @@
 Production-grade Excel Fraud Decision Engine featuring automated risk scoring, heuristic classification, and Benford's Law forensic anomaly detection.
 A production-grade, rule-based Fraud Decision Engine and analytical dashboard built in Microsoft Excel. This project models end-to-end e-commerce risk mitigation, automated order classification, and statistical audit procedures using Benford's Law.
 
-# HP Fraud Decision Engine & Forensic Audit Model
 
-A production-grade, rule-based Fraud Decision Engine and analytical dashboard built in **Advanced Microsoft Excel**. This project models end-to-end e-commerce risk mitigation, automated order classification, and statistical audit procedures using **Benford's Law**.
-
----
 
 ## 🖼️ Visual Overview & Executive Dashboard
 
-![Executive Dashboard Preview](dashboard.png)
+![Executive Dashboard Preview](Fraud Detection Dashboard.png)
 
 ---
 
