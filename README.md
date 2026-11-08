@@ -73,7 +73,7 @@ $$P(d) = \log_{10}\left(1 + \frac{1}{d}\right)$$
 
 ---
 
-## 🛠️ Excel Technical Implementation
+## Excel Technical Implementation
 
 ```text
 ├── Advanced Formulas:   XLOOKUP, VLOOKUP, Nested IFs, SUMIFS, COUNTIFS, COUNTIF
